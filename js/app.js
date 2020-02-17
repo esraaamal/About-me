@@ -2,23 +2,10 @@
 
 
 
- /*var answerA = prompt("do you think taht i have  ever travel to america?").toUpperCase();
- if(answerA == "yes" || answerA == "y"){
-    alert("..cool! ");
- }else if(answerA == "no" || answerA== "n"){
-     alert(" hi");
 
- }
- var answerB = prompt("do you think i love banana?").toUpperCase();
- if(answerB === "yes" || answerB === "y"){
-     alert("yes..that's right ! ");
- }else if(answerB === "no" || answerB === "n"){
-     alert("no that's wrong ");
-
- }*/
- var answerA = prompt("do you think that i have  ever travel to america ?").toLowerCase();
+ var answerA = prompt("do you think that i can pass the exam ?").toLowerCase();
  while((answerA !== 'yes'&& answerA!== 'y') && (answerA !== 'no'&& answerA !== 'n') ){
-     answerA = prompt("do you think taht i have  ever travel to america? do yes or no").toLowerCase();}
+     answerA = prompt("do you think that i can pass the exam? please do yes or no answer").toLowerCase();}
     console.log(answerA);
     if(answerA === "yes" || answerA === "y"){
         alert("yes..that's right !  ");
@@ -36,8 +23,8 @@
 
 
  var answerB = prompt("do you think i love banana ?").toLowerCase();
- while(answerB !== 'yes' && answerB !== 'no' ){
-     answerB = prompt("do you think i love banana ? do yes or no").toLowerCase();}
+ while((answerB!== 'yes'&& answerB!== 'y') && (answerB !== 'no'&& answerB !== 'n') ){
+     answerB = prompt("do you think i love banana ? please do yes or no answer").toLowerCase();}
     console.log(answerB);
     if(answerB === "yes" || answerB === "y"){
         alert("yes..that's right !  ");
@@ -53,8 +40,8 @@
 
 
  var answerc = prompt("i am working or not ?").toLowerCase();
- while(answerc !== 'yes' && answerc !== 'no' ){
-     answerc = prompt("i am working or not ? do yes or no").toLowerCase();}
+ while((answerc !== 'yes'&& answerc !== 'y') && (answerc !== 'no'&& answerc !== 'n') ){
+     answerc = prompt("i am working or not ? please do yes or no answer").toLowerCase();}
     console.log(answerc);
     if(answerc === "yes" || answerc === "y"){
         alert("yes..that's right !  ");
@@ -64,9 +51,9 @@
  
  
 
- var answerD = prompt("do you think i am happy person? ?").toLowerCase();
-while(answerD !== 'yes' && answerD !== 'no' ){
-   answerD = prompt("do you think i am happy person? please answer with yes or no").toLowerCase();}
+ var answerD = prompt("do you think i'am a happy person? ?").toLowerCase();
+while((answerD !== 'yes'&& answerD !== 'y') && (answerD !== 'no'&& answerD !== 'n') ){
+   answerD = prompt("do you think i'am a happy person? please answer with yes or no").toLowerCase();}
 
 console.log(answerD);
 console.log((answerD === "yes" || answerD === "y"));
@@ -79,7 +66,7 @@ if(answerD === "yes" || answerD === "y"){
 
 
 var answerf = prompt("do you think i love coding ?").toLowerCase();
- while(answerf !== 'yes' && answerf !== 'no' ){
+ while((answerf !== 'yes'&& answerf!== 'y') && (answerf !== 'no'&& answerf !== 'n') ){
      answerA = prompt("do you think i love coding ? answer with yes or no please").toLowerCase();}
     console.log(answerf);
     if(answerf === 'yes' || answerf === 'y'){

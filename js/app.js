@@ -1,5 +1,8 @@
 'use strict';
 
+var names =prompt("what is your name please ");
+document.write("Good morning"+' '+names);
+
 
 
 

@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(151, 45, 98);
-}
+
 
 body{
 
@@ -18,6 +16,7 @@ background-color: cornflowerblue;
     width: 350px;
     top:40%;
     margin-top: 70px ;
+    padding-bottom: 15px;
 }
 
 #about-me-esraa{

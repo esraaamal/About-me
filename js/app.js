@@ -1,12 +1,12 @@
 'use strict';
 
 
-var names =prompt("what is your name please ");
-document.write("Good morning"+' '+names);
-
-
 var score=0;
 
+
+var names =prompt("what is your name please ");
+document.write("Good morning"+' '+names);
+/*
 
  var answerA = prompt("do you think that i can pass the exam ?").toLowerCase();
  while((answerA !== 'yes'&& answerA!== 'y') && (answerA !== 'no'&& answerA !== 'n') ){
@@ -137,33 +137,31 @@ var myAge = prompt("can you know how old i'm ?");
         
     }
     alert("my age is 22");
-    
+    */
 
 
 
-   var myColor=['green' , 'pink'];
+   var myColor=['green' , 'pink' ,'blue' ,'black'];
 
    var answerseven = prompt("tell me one of my favorit colors ?").toLowerCase();
-   for(var j=0 ; j<=myColor.length ; j++){
+   for(var j=0 ; j<= myColor.length ; j++){
    
        if (answerseven === myColor[j] ){
            score=score+1;
            alert("cool..this is my favorit color");
            break;
-       }else{ 
-           
-           for(var f=0 ;f<5 ;f++){
-               alert("no that not true ...try again please ");
-           answerseven = prompt("tell me one of my favorit colors ?").toLowerCase();
-   
-           }
-           break;
-   
        }
-   
-   }
-   alert( "my favorit colors " +' :'+ myColor);
-   alert ("your degree is: " + score +" out of 7");
+       }
+   for(var l=0 ; l<5 ;l++){
+       if (answerseven !== myColor[j] )
+       {
+        alert("no that not true ...try again please ");
+        answerseven = prompt("tell me one of my favorit colors ?").toLowerCase(); 
+       }
+}
+
+   alert( "my favorit colors : " +' :'+ myColor);
+   alert (names + " your degree is: " + score +" out of 7");
    
 
 

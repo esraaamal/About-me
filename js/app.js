@@ -6,7 +6,6 @@ var score=0;
 
 var names =prompt("what is your name please ");
 document.write("Good morning"+' '+names);
-/*
 
  var answerA = prompt("do you think that i can pass the exam ?").toLowerCase();
  while((answerA !== 'yes'&& answerA!== 'y') && (answerA !== 'no'&& answerA !== 'n') ){
@@ -19,15 +18,7 @@ document.write("Good morning"+' '+names);
         alert("no that's wrong ");
     }
  
-
-
-
-
-
-
  
-
-
  var answerB = prompt("do you think i love banana ?").toLowerCase();
  while((answerB!== 'yes'&& answerB!== 'y') && (answerB !== 'no'&& answerB !== 'n') ){
      answerB = prompt("do you think i love banana ? please do yes or no answer").toLowerCase();}
@@ -39,13 +30,6 @@ document.write("Good morning"+' '+names);
         alert("no that's wrong ");
     }
  
-
-
-
-
-
-
-
  var answerc = prompt("i am working or not ?").toLowerCase();
  while((answerc !== 'yes'&& answerc !== 'y') && (answerc !== 'no'&& answerc !== 'n') ){
      answerc = prompt("i am working or not ? please do yes or no answer").toLowerCase();}
@@ -59,11 +43,9 @@ document.write("Good morning"+' '+names);
     }
  
  
-
  var answerD = prompt("do you think i'am a happy person? ?").toLowerCase();
 while((answerD !== 'yes'&& answerD !== 'y') && (answerD !== 'no'&& answerD !== 'n') ){
    answerD = prompt("do you think i'am a happy person? please answer with yes or no").toLowerCase();}
-
 console.log(answerD);
 console.log((answerD === "yes" || answerD === "y"));
 if(answerD === "yes" || answerD === "y"){
@@ -73,13 +55,9 @@ if(answerD === "yes" || answerD === "y"){
 }else if(answerD === "no" || answerD ==="n"){
     alert("no that's wrong ");
 }
-
-
-
 var answerf = prompt("do you think i love coding ?").toLowerCase();
 while((answerf !== 'yes'&& answerf !== 'y') && (answerf !== 'no'&& answerf !== 'n') ){
    answerD = prompt("do you think i love coding ? please answer with yes or no").toLowerCase();}
-
 console.log(answerf);
 console.log((answerf === "yes" || answerf === "y"));
 if(answerf === "yes" || answerf === "y"){
@@ -89,18 +67,6 @@ if(answerf === "yes" || answerf === "y"){
 }else if(answerf === "no" || answerf ==="n"){
     alert("no that's wrong ");
 }
-
-
-
-
-
-
-
-
-
-
-
-
  
 var myAge = prompt("can you know how old i'm ?");
     myAge=Number(myAge)
@@ -114,15 +80,12 @@ var myAge = prompt("can you know how old i'm ?");
         alert("oh my God that's totaly right ..you are Gorgeous ");
     }
     else if(myAge > 20  &&  myAge <= 30){
-
         alert("you are close to answering ...try again please ");
         for(var k=0 ; k<3 ;k++){
             myAge = prompt("can you know how old i'm ?");
         }
-
     }
     else if(myAge > 10 && myAge <= 20){
-
         alert("no that not true ...try again please ");
         for(var k=0 ; k<3 ;k++){
             myAge = prompt("can you know how old i'm ?");
@@ -133,11 +96,10 @@ var myAge = prompt("can you know how old i'm ?");
         for(var k=0 ; k<3 ;k++){
             myAge = prompt("can you know how old i'm ?");
         }
-
         
     }
     alert("my age is 22");
-    */
+    
 
 
 
@@ -162,19 +124,3 @@ var myAge = prompt("can you know how old i'm ?");
 
    alert( "my favorit colors : " +' :'+ myColor);
    alert (names + " your degree is: " + score +" out of 7");
-   
-
-
-    
-
-
-
-
-
-
-    
-
-
-
-    
-

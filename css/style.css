@@ -49,3 +49,7 @@ background-color: cornsilk;
     border-radius: 3px solid blue;
     margin: 90px;
 }
+p ul li{
+list-style-type: circle;
+
+}

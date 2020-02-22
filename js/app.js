@@ -7,20 +7,19 @@ var score=0;
 var names =prompt("what is your name please ");
 document.write("Good morning"+' '+names);
 //console.log(names);
-
+var qOne = function(){
  var answerA = prompt("do you think that i can pass the exam ?").toLowerCase();
  while((answerA !== 'yes'&& answerA!== 'y') && (answerA !== 'no'&& answerA !== 'n') ){
      answerA = prompt("do you think that i can pass the exam? please do yes or no answer").toLowerCase();}
-
     //console.log(answerA);
     if(answerA === "yes" || answerA === "y"){
         score=score+1;
         alert("yes..that's right !  ");
     }else if(answerA === "no" || answerA==="n"){
         alert("no that's wrong ");
-    }
+    }}
  
- 
+    var qTwo = function(){
  var answerB = prompt("do you think i love banana ?").toLowerCase();
  while((answerB!== 'yes'&& answerB!== 'y') && (answerB !== 'no'&& answerB !== 'n') ){
      answerB = prompt("do you think i love banana ? please do yes or no answer").toLowerCase();}
@@ -30,8 +29,9 @@ document.write("Good morning"+' '+names);
         alert("yes..that's right !  ");
     }else if(answerB === "no" || answerB ==="n"){
         alert("no that's wrong ");
-    }
+    }}
  
+    var qThree = function(){
  var answerc = prompt("i am working or not ?").toLowerCase();
  while((answerc !== 'yes'&& answerc !== 'y') && (answerc !== 'no'&& answerc !== 'n') ){
      answerc = prompt("i am working or not ? please do yes or no answer").toLowerCase();}
@@ -42,9 +42,9 @@ document.write("Good morning"+' '+names);
         
     }else if(answerc === "no" || answerc ==="n"){
         alert("no that's wrong ");
-    }
+    }}
  
- 
+    var qFour = function(){
  var answerD = prompt("do you think i'am a happy person? ?").toLowerCase();
 while((answerD !== 'yes'&& answerD !== 'y') && (answerD !== 'no'&& answerD !== 'n') ){
    answerD = prompt("do you think i'am a happy person? please answer with yes or no").toLowerCase();}
@@ -56,7 +56,9 @@ if(answerD === "yes" || answerD === "y"){
     
 }else if(answerD === "no" || answerD ==="n"){
     alert("no that's wrong ");
-}
+}}
+
+    var qFive = function(){
 var answerf = prompt("do you think i love coding ?").toLowerCase();
 while((answerf !== 'yes'&& answerf !== 'y') && (answerf !== 'no'&& answerf !== 'n') ){
    answerD = prompt("do you think i love coding ? please answer with yes or no").toLowerCase();}
@@ -68,8 +70,9 @@ if(answerf === "yes" || answerf === "y"){
     
 }else if(answerf === "no" || answerf ==="n"){
     alert("no that's wrong ");
-}
+}}
  
+    var qSex = function(){
 var myAge = prompt("can you know how old i'm ?");
 //console.log(myAge);
     myAge=Number(myAge)
@@ -101,11 +104,11 @@ var myAge = prompt("can you know how old i'm ?");
         }
         
     }
-    alert("my age is 22");
+    alert("my age is 22");}
     
 
 
-
+    var qSeven = function(){
    var myColor=['green' , 'pink' ,'blue' ,'black'];
 
    var answerseven = prompt("tell me one of my favorit colors ?").toLowerCase();
@@ -126,6 +129,20 @@ var myAge = prompt("can you know how old i'm ?");
        }
 }
 
+
    alert( "my favorit colors : " +' :'+ myColor);
    alert (names + " your degree is: " + score +" out of 7");
    console.log("my error is :" + score)
+
+   alert( "my favorit colors : " +' :'+ myColor);}
+
+   // call function
+   qOne();
+   qTwo();
+   qThree();
+   qFour();
+   qFive();
+   qSex();
+   qSeven();
+   alert (names + " your degree is: " + score +" out of 7");
+

@@ -109,7 +109,7 @@ var myAge = prompt("can you know how old i'm ?");
    var myColor=['green' , 'pink' ,'blue' ,'black'];
 
    var answerseven = prompt("tell me one of my favorit colors ?").toLowerCase();
-   //console.log(answerseven);
+   console.log(answerseven)
    for(var j=0 ; j<= myColor.length ; j++){
    
        if (answerseven === myColor[j] ){
@@ -128,3 +128,4 @@ var myAge = prompt("can you know how old i'm ?");
 
    alert( "my favorit colors : " +' :'+ myColor);
    alert (names + " your degree is: " + score +" out of 7");
+   console.log("my error is :" + score)

@@ -1,16 +1,243 @@
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 body{
+    overflow:scroll;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    line-height: 40px;
+    height: 1000px;
 
 
-    background-image: url(https://www.vozactual.com/wp-content/uploads/2016/10/The-First-Few-Weeks-Of-University-Life.jpg) ;
-background-color: #cccccc;
-height: 500px;
+    }
+/*------------------------------home bar----------------------*/
+
+
+
+
+    .logo{
+
+        float: left;
+        margin: 15px 5px;
+        font-size: 25px;
+        background-color:black;
+        border-radius: 6px;
+        color: whitesmoke;
+        word-spacing: 5px;
+    
+    }
+       
+    
+
+      .btn-lg{
+        border-width: large;
+        border-radius:1;
+        padding:.6rem 1.3rem;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        margin: 1rem;
+        border-color: #1EBBA3;
+        background-color: #1EBBA3;
+        color: white;
+        text-decoration: none;
+      }
+
+
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
    
-background-color: cornflowerblue;
+  }
+
+ 
+  .home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .home-inner {
+    background-image: url(css/img/12.jpg);
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+    background-image: url(https://itsecurity.org/wp-content/uploads/city-chicago.jpg);
+    
+  }
+
+
+
+
+    /*course contant*/
+
+
+    .caption{
+        width: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 40%;
+        color: whitesmoke;
+        text-transform: uppercase;
+      }
+      .caption h1{
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: .3rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 2rem;
+      }
+      .caption h3{
+        font-size: 2rem;
+        text-shadow: .1rem .1rem .5rem black;
+        padding-bottom: 1.5rem;
+      }
+
+
+
+
+
+.bar-link {
+   
+    text-decoration: none;
+    color:white ;
+    float: left;
+   
+}
+.all-nav-bar li{
+
+    display: inline-block;
+    padding: 15px;
+    float: left;
+    padding-top: 20px;
+    font-size: 15px;
+
+  
+
+}
+.bar-link:hover{
+    color: rgb(77, 77, 228);
 }
 
-#out{
+
+
+.my-header{
+    text-align: center;
+    
+        text-transform: uppercase;
+      font-size: .9rem;
+      font-weight: 700;
+      letter-spacing: .1rem;
+      background: rgba(0,0,0,0.6)!important;
+     padding-bottom: 60px;
+     position: sticky;
+     top: 0;
+      
+}
+
+.text-center{
+    text-align: center;
+}
+
+.nn{
+    text-decoration: inline-block;
+ }
+ .githab img{
+ 
+   height: 5rem;
+ }
+ .linkgit:hover{
+ color:blue;
+ 
+ }
+ .slacki img{
+   height: 3.5rem;
+   width: 600;
+   margin-bottom: 15px;
+ }
+ 
+ .linkslack:hover{
+   color:blue ;
+ }
+ 
+ .linkcanvas:hover{
+   color:blue ;
+ }
+ 
+ .canvase img{
+   height: 5rem;
+ }
+ 
+ 
+ /*============= COURSE SECTION =============*/
+ 
+ .narrow {
+   width: 75%;
+   margin: 1.5rem auto;
+   padding-top: 2rem;
+ }
+ .narrow h1 {
+     font-size: 2.4rem;
+   }
+ .btn-secondary {
+   border-width: medium;
+   border-radius: 0;
+   padding: .6rem 1.2rem;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   margin: 1rem;
+   border-color: #1EBBA3;
+   background-color: #1EBBA3;
+   color: white;
+ }
+ .btn-secondary:hover,
+ .btn-secondary:focus {
+   border-color: #189582;
+   background-color: #189582;
+   color: white;
+ }
+ 
+
+ .landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    z-index: -1;
+  }
+  .home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+  #about-me{
     text-align: center;
     box-shadow: 0 0 3px 0 rgb(0, 0, 0, 3);
     width: 350px;
@@ -30,12 +257,19 @@ background-color: cornflowerblue;
     overflow-y:scroll;
 }
 
-#out img{
+#about-me img{
 
     width: 60px;
     margin-top: -50px;
     border-radius: 30px;
 }
+
+
+
+
+  
+/*
+
 article{
     background-color: cornsilk;
     text-align: center;
@@ -52,4 +286,4 @@ background-color: cornsilk;
 p ul li{
 list-style-type: circle;
 
-}
+}*/

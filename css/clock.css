@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap');
+
+#MyClockDisplay{
+    margin-left: 900px;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Orbitron' ;
+    color: #fff;
+    text-shadow: 0 0 20px #0fdf19;
+float: right;
+margin-top: -650px;
+}
